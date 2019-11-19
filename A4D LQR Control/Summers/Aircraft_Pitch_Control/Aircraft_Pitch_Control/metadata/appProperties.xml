@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<appProperties xmlns="http://schemas.mathworks.com/matlab/app/2012/appProperties" signature="295FB9A60A7633E9C38668F2741C4E70C65FBA13">
+
+  <entryPoint>pitchgui</entryPoint>
+
+  <name>Aircraft Pitch Control</name>
+
+  <version>1.0</version>
+
+  <createdByMATLABRelease>(R2013a)</createdByMATLABRelease>
+
+  <GUID>9abfb995-8b62-4416-b958-a229ea1bbe79</GUID>
+
+  <summary>Animation of aircraft pitch control system</summary>
+
+  <description>This app was developed as part of web-based control system tutorials available at http://ctms.engin.umich.edu
+
+The purpose of this app is to allow the user to view an animation of the aircraft pitch control system with the step response plot. This allows the user to see the correlation between the plot and the systems physical response.
+
+The animation and the app are based on the Aircraft Pitch: State-Space Controller Design page of controls tutorials:
+http://ctms.engin.umich.edu/CTMS/index.php?example=AircraftPitch&amp;section=ControlStateSpace
+
+For more information on the system model please refer to the Aircraft Pitch: System Modeling page of controls tutorials:
+http://ctms.engin.umich.edu/CTMS/index.php?example=AircraftPitch&amp;section=SystemModeling</description>
+
+  <author>
+    <name>William Messner and Richard Hill</name>
+    <contact></contact>
+    <organization></organization>
+  </author>
+
+  <supportedPlatforms/>
+
+  <requiredProducts>
+    <product identifier="3" name="Control System Toolbox" version="9.4"/>
+    <product identifier="1" name="MATLAB" version="8.0"/>
+  </requiredProducts>
+
+  <numFiles>2</numFiles>
+
+  <created>2013-03-12T18:20:53Z</created>
+
+  <appEntries>
+    <appFile>/pitchgui.m</appFile>
+    <appFile>/pitchgui.fig</appFile>
+  </appEntries>
+
+</appProperties>
